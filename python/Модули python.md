@@ -120,3 +120,5 @@ person1 = {
 from mymodule import person1  
   
 print (person1["age"])
+
+**Примечание:** При импорте с использованием from  ключевого слова не используйте имя модуля при ссылке на элементы внутри модуля. Пример: `person1["age"]`, **а не** ~~`mymodule.person1["age"]`~~
